@@ -80,7 +80,7 @@
 #define SERIAL_REPEATER_BAUD 115200
 
 // Enable Nextion LCD serial port repeater on USART1 (Do not use with STM32_USART1_HOST enabled):
-// #define SERIAL_REPEATER_USART1
+#define SERIAL_REPEATER_USART1
 
 // Enable P25 Wide modulation:
 // #define ENABLE_P25_WIDE
@@ -104,7 +104,7 @@
 // #define USE_ALTERNATE_POCSAG_LEDS
 
 // Enable for RPi 3B+, USB mode
-#define LONG_USB_RESET
+// #define LONG_USB_RESET
 
 // Enable modem debug messages
 #define ENABLE_DEBUG
