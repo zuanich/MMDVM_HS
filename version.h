@@ -25,8 +25,8 @@
 
 #define VER_MAJOR       "1"
 #define VER_MINOR       "6"
-#define VER_REV         "0"
-#define VERSION_DATE    "20210919"
+#define VER_REV         "2"
+#define VERSION_DATE    "20261009"
 
 #if defined(ZUMSPOT_ADF7021)
 #define BOARD_INFO      "ZUMspot"
@@ -69,7 +69,7 @@
 
 #define FW_VERSION      "v" VER_MAJOR "." VER_MINOR "." VER_REV " " VERSION_DATE
 
-#define DESCRIPTION     BOARD_INFO "-" FW_VERSION " " TCXO_FREQ "MHz " RF_DUAL RF_CHIP " FW by CA6JAU"
+#define DESCRIPTION     BOARD_INFO "-" FW_VERSION " " TCXO_FREQ "MHz " RF_DUAL RF_CHIP " FW by WB6AAZ"
 
 #if defined(MADEBYMAKEFILE)
 #include "GitVersion.h"

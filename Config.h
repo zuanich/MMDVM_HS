@@ -27,7 +27,7 @@
 // 3) MMDVM_HS_Hat revisions 1.1, 1.2 and 1.4 (DB9MAT & DF2ET)
 // #define MMDVM_HS_HAT_REV12
 // 4) MMDVM_HS_Dual_Hat revisions 1.0 (DB9MAT & DF2ET & DO7EN)
-// #define MMDVM_HS_DUAL_HAT_REV10
+#define MMDVM_HS_DUAL_HAT_REV10
 // 5) Nano hotSPOT (BI7JTA)
 // #define NANO_HOTSPOT
 // 6) NanoDV NPi or USB revisions 1.0 (BG4TGO & BG5HHP)
@@ -62,8 +62,8 @@
 // #define AD7021_GAIN_HIGH
 
 // Host communication selection:
-// #define STM32_USART1_HOST
-#define STM32_USB_HOST
+#define STM32_USART1_HOST
+// #define STM32_USB_HOST
 // #define STM32_I2C_HOST
 
 // I2C host address:
@@ -77,7 +77,7 @@
 
 // Enable Nextion LCD serial port repeater on USART2 (ZUMspot Libre Kit and ZUMspot RPi):
 #define SERIAL_REPEATER
-#define SERIAL_REPEATER_BAUD 9600
+#define SERIAL_REPEATER_BAUD 115200
 
 // Enable Nextion LCD serial port repeater on USART1 (Do not use with STM32_USART1_HOST enabled):
 // #define SERIAL_REPEATER_USART1
