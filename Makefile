@@ -418,7 +418,7 @@ $(OBJDIR_F1)/%.o: $(USB_F1)/%.c
 
 clean:
 	$(CLEANCMD)
-	$(RM) GitVersion.h
+	if exist GitVersion.h del GitVersion.h
 
 stlink:
 	$(ST_FLASH) $(ST_FLASH_OPTS) write bin/$(BINBIN_F1) 0x8000000
